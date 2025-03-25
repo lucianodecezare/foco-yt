@@ -1,0 +1,27 @@
+{
+  "name": "foco-yt",
+  "version": "1.0.0",
+  "description": "Use youtube without distraction",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianodecezare/foco-yt.git"
+  },
+  "keywords": [
+    "youtube",
+    "foco",
+    "chrome extension"
+  ],
+  "author": "lucianodecezare",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lucianodecezare/foco-yt/issues"
+  },
+  "homepage": "https://github.com/lucianodecezare/foco-yt#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
