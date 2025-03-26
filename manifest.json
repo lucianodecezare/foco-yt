@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Foco YT",
+  "version": "1.0",
+  "description": "Use youtube without description",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

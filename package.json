@@ -4,7 +4,8 @@
   "description": "Use youtube without distraction",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dist": "npm run build && cp manifest.json dist/ && cp ./src/popup.html dist/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/lucianodecezare/foco-yt#readme",
   "devDependencies": {
+    "@types/chrome": "^0.0.312",
     "typescript": "^5.8.2"
   }
 }
